@@ -1,0 +1,64 @@
+body
+{
+	min-width: 600px;
+}
+
+.header
+{
+	min-width: 600px;
+	min-height: 120px;
+	background-image: url("./images/header2.jpg");
+	padding: 30px 9% 30px 9%;
+}
+
+.title-link
+{
+	float: left;
+	font-family: 'Coda Caption', sans-serif;
+	margin: 5px;
+}
+
+.title-link a
+{
+	text-decoration: none;
+}
+
+.contact
+{
+	float: right;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.contact a
+{
+	text-decoration: none;
+}
+
+.nav-link
+{
+	border-right: solid 1px #ccc;
+}
+
+.navbar
+{
+	height: 45px;
+	min-width: 600px;
+	justify-content: flex-start;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.navbar a
+{
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.navbar a:hover
+{
+	background-color: #ddd;
+}
